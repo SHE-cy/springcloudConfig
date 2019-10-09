@@ -7,6 +7,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.config.server.EnableConfigServer;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
+//@EnableConfigServer表示本springboot 是个配置服务器
 
 @SpringBootApplication
 @EnableConfigServer
